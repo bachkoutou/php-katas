@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- see http://www.phpunit.de/wiki/Documentation -->
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+         bootstrap="./initTest.php">
+    <testsuites>
+        <testsuite>
+            <directory>./tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
